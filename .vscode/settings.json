@@ -1,0 +1,6 @@
+{
+    "rpc.enabled": false,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
