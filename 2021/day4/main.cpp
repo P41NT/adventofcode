@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vector<bitset<25>> win_masks = {
+bitset<25> win_masks[10] = {
     bitset<25> (0x108421),
     bitset<25> (0x108421 >> 1),
     bitset<25> (0x108421 >> 2),
@@ -19,6 +19,7 @@ int part1(vector<vector<int>> &matrices, vector<int> &sequence){
     vector<bitset<25>> markings;
     for(auto s : sequence){
         for(auto matrix : matrices){
+            
         }
     }
 }
